@@ -215,3 +215,21 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 768px) {
+  .main-section {
+    width: 115%;
+  }
+  .container {
+    width: 40%
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .main-section {
+    width: 160%;
+  }
+  .container {
+    width: 40%
+  }
+}
